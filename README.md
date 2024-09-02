@@ -14,3 +14,8 @@
 -MovieList \* N (Vertically Scrolable)
 
 --> NetflixGPT 1. Search Bar 2. Movie Suggestions
+
+Dependencies installed:
+
+1. Tailwind
+2. react-router-dom
