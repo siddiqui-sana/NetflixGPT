@@ -1,4 +1,4 @@
-const validate = (email, password) => {
+export const checkValidate = (email, password) => {
   const isEmailValid = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/.test(
     email
   );
@@ -11,4 +11,5 @@ const validate = (email, password) => {
   if (!isValidPassword) {
     return "Not a valid Password";
   }
+  return null;
 };
